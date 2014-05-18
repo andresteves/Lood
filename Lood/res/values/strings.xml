@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Lood</string>
+    <string name="search_text">Search</string>
+    <string name="savedFood">Saved Food</string>
+    <string name="extname">Looking for food!</string>
+
+</resources>
