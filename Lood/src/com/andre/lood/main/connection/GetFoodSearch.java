@@ -83,6 +83,7 @@ public class GetFoodSearch extends AsyncTask<String, Void, String> {
 			urlConnection.setRequestProperty("Authorization", "Basic a794ecd348a3f71894426c65c37fea35da89a295bcbad687ca68a96fbfc7d371");
 			urlConnection.setRequestProperty("Content-Type", "application/json");
 			urlConnection.setDoOutput(true);
+			urlConnection.setUseCaches(true);
 			urlConnection.setReadTimeout(30000);
 			urlConnection.setConnectTimeout(30000);
 			urlConnection.connect();
